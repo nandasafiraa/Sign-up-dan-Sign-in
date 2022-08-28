@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['Daftar.html','Masuk.html'],
+  content: ['Daftar.html','Masuk.html','Dashboard.html','Kompetisi_Basket.hmtl','Kompetisi_Bultang.hmtl','Kompetisi_Fotografi.hmtl','Kompetisi_Futsal.hmtl','Kompetisi_MobileLegends.hmtl','Kompetisi_ModernDance.hmtl','Kompetisi_PUBG.hmtl','Kompetisi_SoloVocal.hmtl'],
   theme: {
     extend: {
       colors: {
@@ -48,5 +48,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/custom-forms'),
+    require('flowbite/plugin')
   ],
 }
